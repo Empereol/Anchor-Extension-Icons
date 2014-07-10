@@ -1,0 +1,964 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Anchor Document Extensions Indicators</title>
+    <style type="text/css">
+    html,
+    body {
+        font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+    }
+    table {
+        background-color: #f3f3f3;
+        padding: 0;
+    }
+    tr:nth-child(odd) {
+        background-color: #f9f9f9;
+    }
+    th,
+    td {
+        padding: 1em;
+    }
+    th {
+        font-family: Consolas, "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", Monaco, "Courier New", monospace;
+        background-color: #673ab7;
+        color: #fff;
+        text-transform: uppercase;
+    }
+    </style>
+
+    <link type="text/css" href="anchor-extension-icons.css" rel="stylesheet" media="screen" />
+</head>
+
+<body>
+    <table cellpadding="0" cellspacing="0">
+        <tr>
+            <th colspan="2">Text Files</th>
+        </tr>
+        <tr>
+            <td>.doc</td>
+            <td><a href=".doc">Microsoft Word Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.docx</td>
+            <td><a href=".docx">Microsoft Word Open XML Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.log</td>
+            <td><a href=".log">Log File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.msg</td>
+            <td><a href=".msg">Outlook Mail Message</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.odt</td>
+            <td><a href=".odt">OpenDocument Text Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pages</td>
+            <td><a href=".pages">Pages Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.rtf</td>
+            <td><a href=".rtf">Rich Text Format File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tex</td>
+            <td><a href=".tex">LaTeX Source Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.txt</td>
+            <td><a href=".txt">Plain Text File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.wpd</td>
+            <td><a href=".wpd">WordPerfect Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.wps</td>
+            <td><a href=".wps">Microsoft Works Word Processor Document</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Data Files</th>
+        </tr>
+        <tr>
+            <td>.csv</td>
+            <td><a href=".csv">Comma Separated Values File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dat</td>
+            <td><a href=".dat">Data File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.gbr</td>
+            <td><a href=".gbr">Gerber File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ged</td>
+            <td><a href=".ged">GEDCOM Genealogy Data File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ibooks</td>
+            <td><a href=".ibooks">Multi-Touch iBook</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.key</td>
+            <td><a href=".key">Keynote Presentation</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.keychain</td>
+            <td><a href=".keychain">Mac OS X Keychain File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pps</td>
+            <td><a href=".pps">PowerPoint Slide Show</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ppt</td>
+            <td><a href=".ppt">PowerPoint Presentation</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pptx</td>
+            <td><a href=".pptx">PowerPoint Open XML Presentation</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sdf</td>
+            <td><a href=".sdf">Standard Data File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tar</td>
+            <td><a href=".tar">Consolidated Unix File Archive</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tax2012</td>
+            <td><a href=".tax2012">TurboTax 2012 Tax Return</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.vcf</td>
+            <td><a href=".vcf">vCard File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.xml</td>
+            <td><a href=".xml">XML File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Audio Files</th>
+        </tr>
+        <tr>
+            <td>.aif</td>
+            <td><a href=".aif">Audio Interchange File Format</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.iff</td>
+            <td><a href=".iff">Interchange File Format</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.m3u</td>
+            <td><a href=".m3u">Media Playlist File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.m4a</td>
+            <td><a href=".m4a">MPEG-4 Audio File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mid</td>
+            <td><a href=".mid">MIDI File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mp3</td>
+            <td><a href=".mp3">MP3 Audio File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mpa</td>
+            <td><a href=".mpa">MPEG-2 Audio File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ra</td>
+            <td><a href=".ra">Real Audio File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.wav</td>
+            <td><a href=".wav">WAVE Audio File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.wma</td>
+            <td><a href=".wma">Windows Media Audio File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Video Files</th>
+        </tr>
+        <tr>
+            <td>.3g2</td>
+            <td><a href=".3g2">3GPP2 Multimedia File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.3gp</td>
+            <td><a href=".3gp">3GPP Multimedia File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.asf</td>
+            <td><a href=".asf">Advanced Systems Format File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.asx</td>
+            <td><a href=".asx">Microsoft ASF Redirector File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.avi</td>
+            <td><a href=".avi">Audio Video Interleave File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.flv</td>
+            <td><a href=".flv">Flash Video File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.m4v</td>
+            <td><a href=".m4v">iTunes Video File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mov</td>
+            <td><a href=".mov">Apple QuickTime Movie</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mp4</td>
+            <td><a href=".mp4">MPEG-4 Video File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mpg</td>
+            <td><a href=".mpg">MPEG Video File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.rm</td>
+            <td><a href=".rm">Real Media File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.srt</td>
+            <td><a href=".srt">SubRip Subtitle File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.swf</td>
+            <td><a href=".swf">Shockwave Flash Movie</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.vob</td>
+            <td><a href=".vob">DVD Video Object File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.wmv</td>
+            <td><a href=".wmv">Windows Media Video File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">3D Image Files</th>
+        </tr>
+        <tr>
+            <td>.3dm</td>
+            <td><a href=".3dm">Rhino 3D Model</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.3ds</td>
+            <td><a href=".3ds">3D Studio Scene</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.max</td>
+            <td><a href=".max">3ds Max Scene File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.obj</td>
+            <td><a href=".obj">Wavefront 3D Object File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Raster Image Files</th>
+        </tr>
+        <tr>
+            <td>.bmp</td>
+            <td><a href=".bmp">Bitmap Image File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dds</td>
+            <td><a href=".dds">DirectDraw Surface</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.gif</td>
+            <td><a href=".gif">Graphical Interchange Format File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.jpg</td>
+            <td><a href=".jpg">JPEG Image</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.png</td>
+            <td><a href=".png">Portable Network Graphic</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.psd</td>
+            <td><a href=".psd">Adobe Photoshop Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pspimage</td>
+            <td><a href=".pspimage">PaintShop Pro Image</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tga</td>
+            <td><a href=".tga">Targa Graphic</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.thm</td>
+            <td><a href=".thm">Thumbnail Image File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tif</td>
+            <td><a href=".tif">Tagged Image File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tiff</td>
+            <td><a href=".tiff">Tagged Image File Format</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.yuv</td>
+            <td><a href=".yuv">YUV Encoded Image File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Vector Image Files</th>
+        </tr>
+        <tr>
+            <td>.ai</td>
+            <td><a href=".ai">Adobe Illustrator File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.eps</td>
+            <td><a href=".eps">Encapsulated PostScript File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ps</td>
+            <td><a href=".ps">PostScript File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.svg</td>
+            <td><a href=".svg">Scalable Vector Graphics File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Page Layout Files</th>
+        </tr>
+        <tr>
+            <td>.indd</td>
+            <td><a href=".indd">Adobe InDesign Document</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pct</td>
+            <td><a href=".pct">Picture File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pdf</td>
+            <td><a href=".pdf">Portable Document Format File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Spreadsheet Files</th>
+        </tr>
+        <tr>
+            <td>.xlr</td>
+            <td><a href=".xlr">Works Spreadsheet</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.xls</td>
+            <td><a href=".xls">Excel Spreadsheet</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.xlsx</td>
+            <td><a href=".xlsx">Microsoft Excel Open XML Spreadsheet</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Database Files</th>
+        </tr>
+        <tr>
+            <td>.accdb</td>
+            <td><a href=".accdb">Access 2007 Database File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.db</td>
+            <td><a href=".db">Database File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dbf</td>
+            <td><a href=".dbf">Database File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mdb</td>
+            <td><a href=".mdb">Microsoft Access Database</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pdb</td>
+            <td><a href=".pdb">Program Database</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sql</td>
+            <td><a href=".sql">Structured Query Language Data File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Executable Files</th>
+        </tr>
+        <tr>
+            <td>.apk</td>
+            <td><a href=".apk">Android Package File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.app</td>
+            <td><a href=".app">Mac OS X Application</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.bat</td>
+            <td><a href=".bat">DOS Batch File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cgi</td>
+            <td><a href=".cgi">Common Gateway Interface Script</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.com</td>
+            <td><a href=".com">DOS Command File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.exe</td>
+            <td><a href=".exe">Windows Executable File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.gadget</td>
+            <td><a href=".gadget">Windows Gadget</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.jar</td>
+            <td><a href=".jar">Java Archive File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pif</td>
+            <td><a href=".pif">Program Information File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.vb</td>
+            <td><a href=".vb">VBScript File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.wsf</td>
+            <td><a href=".wsf">Windows Script File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Game Files</th>
+        </tr>
+        <tr>
+            <td>.dem</td>
+            <td><a href=".dem">Video Game Demo File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.gam</td>
+            <td><a href=".gam">Saved Game File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.nes</td>
+            <td><a href=".nes">Nintendo (NES) ROM File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.rom</td>
+            <td><a href=".rom">N64 Game ROM File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sav</td>
+            <td><a href=".sav">Saved Game</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">CAD Files</th>
+        </tr>
+        <tr>
+            <td>.dwg</td>
+            <td><a href=".dwg">AutoCAD Drawing Database File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dxf</td>
+            <td><a href=".dxf">Drawing Exchange Format File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">GIS Files</th>
+        </tr>
+        <tr>
+            <td>.gpx</td>
+            <td><a href=".gpx">GPS Exchange File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.kml</td>
+            <td><a href=".kml">Keyhole Markup Language File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.kmz</td>
+            <td><a href=".kmz">Google Earth Placemark File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Web Files</th>
+        </tr>
+        <tr>
+            <td>.rss</td>
+            <td><a href=".rss">Rich Site Summary</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Plugin Files</th>
+        </tr>
+        <tr>
+            <td>.crx</td>
+            <td><a href=".crx">Chrome Extension</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.plugin</td>
+            <td><a href=".plugin">Mac OS X Plug-in</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Font Files</th>
+        </tr>
+        <tr>
+            <td>.fnt</td>
+            <td><a href=".fnt">Windows Font File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.fon</td>
+            <td><a href=".fon">Generic Font File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.otf</td>
+            <td><a href=".otf">OpenType Font</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ttf</td>
+            <td><a href=".ttf">TrueType Font</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">System Files</th>
+        </tr>
+        <tr>
+            <td>.cab</td>
+            <td><a href=".cab">Windows Cabinet File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cpl</td>
+            <td><a href=".cpl">Windows Control Panel Item</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cur</td>
+            <td><a href=".cur">Windows Cursor</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.deskthemepack</td>
+            <td><a href=".desktopthemepack">Windows 8 Desktop Theme Pack File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dll</td>
+            <td><a href=".dll">Dynamic Link Library</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dmp</td>
+            <td><a href=".dmp">Windows Memory Dump</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.drv</td>
+            <td><a href=".drv">Device Driver</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.icns</td>
+            <td><a href=".icns">Mac OS X Icon Resource File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ico</td>
+            <td><a href=".ico">Icon File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.lnk</td>
+            <td><a href=".lnk">Windows File Shortcut</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sys</td>
+            <td><a href=".sys">Windows System File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Settings Files</th>
+        </tr>
+        <tr>
+            <td>.cfg</td>
+            <td><a href=".cfg">Configuration File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ini</td>
+            <td><a href=".ini">Windows Initialization File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.prf</td>
+            <td><a href=".prf">Outlook Profile File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Encoded Files</th>
+        </tr>
+        <tr>
+            <td>.hqx</td>
+            <td><a href=".hqx">BinHex 4.0 Encoded File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mim</td>
+            <td><a href=".mim">Multi-Purpose Internet Mail Message File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.uue</td>
+            <td><a href=".uue">Uuencoded File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Compressed Files</th>
+        </tr>
+        <tr>
+            <td>.7z</td>
+            <td><a href=".7z">7-Zip Compressed File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cbr</td>
+            <td><a href=".cbr">Comic Book RAR Archive</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.deb</td>
+            <td><a href=".deb">Debian Software Package</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.gz</td>
+            <td><a href=".gz">Gnu Zipped Archive</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pkg</td>
+            <td><a href=".pkg">Mac OS X Installer Package</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.rar</td>
+            <td><a href=".rar">WinRAR Compressed Archive</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.rpm</td>
+            <td><a href=".rpm">Red Hat Package Manager File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sitx</td>
+            <td><a href=".sitx">StuffIt X Archive</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tar.gz</td>
+            <td><a href=".tar.gz">Compressed Tarball File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.zip</td>
+            <td><a href=".zip">Zipped File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.zipx</td>
+            <td><a href=".zipx">Extended Zip File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Disk Image Files</th>
+        </tr>
+        <tr>
+            <td>.bin</td>
+            <td><a href=".bin">Binary Disc Image</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cue</td>
+            <td><a href=".cue">Cue Sheet File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dmg</td>
+            <td><a href=".dmg">Mac OS X Disk Image</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.iso</td>
+            <td><a href=".iso">Disc Image File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.mdf</td>
+            <td><a href=".mdf">Media Disc Image File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.toast</td>
+            <td><a href=".toast">Toast Disc Image</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.vcd</td>
+            <td><a href=".vcd">Virtual CD</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Developer Files</th>
+        </tr>
+        <tr>
+            <td>.c</td>
+            <td><a href=".c">C/C++ Source Code File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.class</td>
+            <td><a href=".class">Java Class File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cpp</td>
+            <td><a href=".cpp">C++ Source Code File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.cs</td>
+            <td><a href=".cs">Visual C# Source Code File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.dtd</td>
+            <td><a href=".dtd">Document Type Definition File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.fla</td>
+            <td><a href=".fla">Adobe Flash Animation</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.h</td>
+            <td><a href=".h">C/C++/Objective-C Header File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.java</td>
+            <td><a href=".java">Java Source Code File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.lua</td>
+            <td><a href=".lua">Lua Source File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.m</td>
+            <td><a href=".m">Objective-C Implementation File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.pl</td>
+            <td><a href=".pl">Perl Script</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.py</td>
+            <td><a href=".py">Python Script</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sh</td>
+            <td><a href=".sh">Bash Shell Script</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.sln</td>
+            <td><a href=".sln">Visual Studio Solution File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.swift</td>
+            <td><a href=".swift">Swift Source Code File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.vcxproj</td>
+            <td><a href=".vcxproj">Visual C++ Project</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.xcodeproj</td>
+            <td><a href=".xcodeproj">Xcode Project</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Backup Files</th>
+        </tr>
+        <tr>
+            <td>.bak</td>
+            <td><a href=".bak">Backup File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.tmp</td>
+            <td><a href=".tmp">Temporary File</a>
+            </td>
+        </tr>
+        <tr>
+            <th colspan="2">Misc Files</th>
+        </tr>
+        <tr>
+            <td>.crdownload</td>
+            <td><a href=".crdownload">Chrome Partially Downloaded File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.ics</td>
+            <td><a href=".ics">iCalendar File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.msi</td>
+            <td><a href=".msi">Windows Installer Package</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.part</td>
+            <td><a href=".part">Partially Downloaded File</a>
+            </td>
+        </tr>
+        <tr>
+            <td>.torrent</td>
+            <td><a href=".torrent">BitTorrent File</a>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
