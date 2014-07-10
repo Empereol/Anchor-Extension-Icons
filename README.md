@@ -3,6 +3,9 @@ Anchor Extension Icons
 
 CSS added extension icons to your anchor link. The styling is left very basic in order to be modified easily to fit your theme.
 
+It works using a pseudo selector examining the `href` of an `<a>` for a known file extension. 
+
+This could be expanded (and incredibly simplified) to use a `data-` attribute on the element but I wanted this to work without having to modify any existing HTML. 
 
 Installation
 ---
